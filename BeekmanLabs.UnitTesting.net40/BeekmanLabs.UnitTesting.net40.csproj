@@ -7,8 +7,8 @@
     <ProjectGuid>{63BC2B39-7056-4461-844E-48D930BEED38}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BeekmanLabs.UnitTesting.net40</RootNamespace>
-    <AssemblyName>BeekmanLabs.UnitTesting.net40</AssemblyName>
+    <RootNamespace>BeekmanLabs.UnitTesting</RootNamespace>
+    <AssemblyName>BeekmanLabs.UnitTesting</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -24,7 +24,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>llib\net40\</OutputPath>
+    <OutputPath>lib\net40\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>

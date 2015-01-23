@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeekmanLabs.UnitTesting.net
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{FE705EA6-91BA-479F-8023-6899DFB38146}"
 	ProjectSection(SolutionItems) = preProject
+		scripts\package.cmd = scripts\package.cmd
+		scripts\release.cmd = scripts\release.cmd
 		SharedAssemblyInfo.cs = SharedAssemblyInfo.cs
 	EndProjectSection
 EndProject
