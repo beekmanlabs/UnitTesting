@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>$author$</authors>
+    <licenseUrl>https://github.com/beekmanlabs/BeekmanLabs.UnitTesting/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/beekmanlabs/BeekmanLabs.UnitTesting</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Simple test subject construction.</description>
+    <copyright>Copyright 2015</copyright>
+    <tags>NUnit Unit Testing Tests</tags>
+    <references>
+      <reference file="BeekmanLabs.UnitTesting.dll" />
+    </references>
+    <dependencies>
+      <dependency id="NUnit" version="2.6.4"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\BeekmanLabs.UnitTesting.net40\lib\net40\BeekmanLabs.UnitTesting.dll" target="lib\net40" />
+  </files>
+</package>

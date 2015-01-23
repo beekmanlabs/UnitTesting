@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeekmanLabs.UnitTesting", "BeekmanLabs.UnitTesting\BeekmanLabs.UnitTesting.csproj", "{3D18A7A9-68D5-45C0-82D9-94F1688D7B9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{27791ADB-CD4E-4A20-A840-694754BD1287}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeekmanLabs.UnitTesting.net40", "BeekmanLabs.UnitTesting.net40\BeekmanLabs.UnitTesting.net40.csproj", "{63BC2B39-7056-4461-844E-48D930BEED38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{FE705EA6-91BA-479F-8023-6899DFB38146}"
+	ProjectSection(SolutionItems) = preProject
+		SharedAssemblyInfo.cs = SharedAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D18A7A9-68D5-45C0-82D9-94F1688D7B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D18A7A9-68D5-45C0-82D9-94F1688D7B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D18A7A9-68D5-45C0-82D9-94F1688D7B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D18A7A9-68D5-45C0-82D9-94F1688D7B9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63BC2B39-7056-4461-844E-48D930BEED38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63BC2B39-7056-4461-844E-48D930BEED38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63BC2B39-7056-4461-844E-48D930BEED38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63BC2B39-7056-4461-844E-48D930BEED38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
