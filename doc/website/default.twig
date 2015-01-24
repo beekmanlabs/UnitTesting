@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ title }}</title>
+
+    <link rel="stylesheet" href="{{ baseUrl }}/bower_components/bootswatch/journal/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ baseUrl }}/bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ baseUrl }}/bower_components/highlightjs/styles/dark.css">
+    <link rel="stylesheet" href="{{ baseUrl }}/css/main.css">
+</head>
+<body>
+
+<header class="jumbotron">
+    <div class="container text-center">
+        <h1>{{ title }}</h1>
+        <p>{{ subTitle }}</p>
+    </div>
+</header>
+
+<main class="container">
+    <section>
+        {{ content|raw }}
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p class="text-muted text-center">
+            Created at Beekman Labs
+        </p>
+    </div>
+</footer>
+
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/highlightjs/highlight.pack.js"></script>
+
+<script>
+    $(function() {
+        $("section>h1").wrap('<div class="page-header" />');
+        // Syntax highlighting
+        hljs.initHighlightingOnLoad();
+    });
+</script>
+
+</body>
+</html>

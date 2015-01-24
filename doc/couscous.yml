@@ -1,0 +1,5 @@
+template:
+    directory: website
+title: BeekmanLabs.UnitTesting
+subTitle: Simple test subject construction in C#.
+baseUrl: http://beekmanlabs.github.io/UnitTesting/

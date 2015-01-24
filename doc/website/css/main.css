@@ -1,0 +1,16 @@
+main.container {
+    max-width: 800px;
+}
+
+.footer {
+    height: 200px;
+}
+
+.jumbotron {
+    background-color: #eb6864;
+}
+
+.jumbotron p {
+    color: #2f2f2f;
+}
+
