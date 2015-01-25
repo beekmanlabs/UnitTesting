@@ -1,5 +1,5 @@
 template:
     directory: website
 title: BeekmanLabs.UnitTesting
-subTitle: Simple test subject construction in C#.
+subTitle: Simple test subject construction for NUnit.
 baseUrl: http://beekmanlabs.github.io/UnitTesting/
