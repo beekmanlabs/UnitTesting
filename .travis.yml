@@ -1,8 +1,8 @@
 language: csharp
-solution: BeekmanLabs.HL7.sln
+solution: BeekmanLabs.UnitTesting.sln
 
 sudo: false
 cache: apt
 
 script:
-  - xbuild /p:Configuration=Release BeekmanLabs.HL7.sln
+  - xbuild /p:Configuration=Release BeekmanLabs.UnitTesting.sln
