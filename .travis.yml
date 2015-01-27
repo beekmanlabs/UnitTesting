@@ -1,0 +1,8 @@
+language: csharp
+solution: BeekmanLabs.HL7.sln
+
+sudo: false
+cache: apt
+
+script:
+  - xbuild /p:Configuration=Release BeekmanLabs.HL7.sln
