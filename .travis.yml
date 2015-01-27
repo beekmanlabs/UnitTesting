@@ -1,0 +1,8 @@
+language: csharp
+solution: BeekmanLabs.UnitTesting.sln
+
+sudo: false
+cache: apt
+
+script:
+  - xbuild /p:Configuration=Release BeekmanLabs.UnitTesting.sln
